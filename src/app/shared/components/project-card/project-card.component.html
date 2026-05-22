@@ -1,0 +1,7 @@
+<h1>{{ project.title }}</h1>
+
+<p>{{ project.shortDescription }}</p>
+
+@for (technology of project.technologies; track technology) {
+  <p>{{ technology }}</p>
+}
